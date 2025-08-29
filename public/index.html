@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>He Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyDw2AlyHWPrmeqld17lnnUO-ASgO_TGpBM",
+        authDomain: "he-company-3aeed.firebaseapp.com",
+        projectId: "he-company-3aeed",
+        storageBucket: "he-company-3aeed.firebasestorage.app",
+        messagingSenderId: "410138175436",
+        appId: "1:410138175436:web:de287abcc911d8e2f2df69",
+        measurementId: "G-N804EPJSRQ"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    </script>
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">
+        <i class="fas fa-seedling"></i> HE Co.
+        </a>
+
+        <nav class ="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+        </nav>  
+
+        <div class ="icons">
+            <a href="mailto:hecompany@gmail.com" class="fas fa-envelope"></i></a>            
+        </div>
+</header>
+
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>HE Company</h3>
+        <span>Detail-driven labor for sustainable growth</span>
+        <p>HE Company is a Netherlands-based agricultural business offering soilless agriculture solutions, organic farming consultancy across Europe, and expert plant care services in Holland. 
+        <a href="#about" class="btn">Learn More</a></p>
+        
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="row">
+        <div class="image">
+            <img src="https://cdn.pixabay.com/photo/2015/11/06/08/51/cash-1025549_1280.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>About Us</h3>
+            <p>Modern farming, rooted in experience.<br>
+            HE Company is a Netherlands-based agricultural business dedicated to advancing modern farming through innovation and expertise. We specialize in soilless agriculture in the Netherlands, providing clean, efficient, and high-yield solutions for both urban and rural farming environments.
+            With over 5 years as a plant care expert in Holland and 8+ years in organic farming, we deliver sustainable farming services that meet the needs of small-scale growers and large commercial producers alike. Our organic farming consultancy across Europe helps clients adopt eco-friendly practices while achieving maximum productivity.
+            From advanced hydroponic solutions in the Netherlands to fully certified organic systems, HE Company empowers growers to produce smarter, cleaner, and greener—ensuring that agriculture remains both profitable and sustainable for future generations.</p>
+            <a href="mailto:hecompany@gmail.com" class="btn">Contact Us</a>
+        </div>
+</section>
+
+<section class="footer" id="footer">
+    <div class ="box-container">
+        <footer>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hecompany@gmail.com"><span>hecompany@gmail.com</span></a></p>
+            <p><i class="fa fa-seedling"></i>HE Company since <span>2021</span>, Netherlands.</p>
+        </footer>
+
+    </div>
+</section>
+
+
+</body>
+</html>
